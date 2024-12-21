@@ -1,0 +1,85 @@
+body{
+    background-image: url(./bag1.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+    background-size: cover;
+    margin: 0;
+}
+.contain{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(188, 209, 215, 0.4);
+}
+.bar{
+    position: absolute;
+    top: 0;
+    width: 90%;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 15px;
+    background-color: rgba(250, 235, 215, 0.589);
+    border-radius: 8px;
+    border: 2px solid gainsboro;
+}
+.bar #h5{
+    position: absolute;
+    left: 108px;
+    font-size: 30px;
+    color: brown;
+}
+.bar img{
+    width: 40px;
+    height: 40px;
+}
+.navbar a{
+    text-decoration: none;
+    color:black;
+    font-size: 22px;
+    margin:0 5px;
+}
+.navbar a:hover{
+    text-decoration: underline;
+}
+.content{
+    position: absolute;
+    top: 28%;
+    left: 28%;
+    text-align:center;
+}
+.content button{
+    padding: 10px 20px;
+    background-color: beige;
+    box-shadow: 2px 2px black;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+.content button:hover{
+    background: gainsboro;
+}
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 65px;
+    color:rgba(50, 9, 9, 0.895);
+
+}
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 25px;
+    color: rgba(166, 36, 36, 0.783);
+}
+#e{
+    position:relative;
+    top: 18px;
+}
